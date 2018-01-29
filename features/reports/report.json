@@ -1,0 +1,408 @@
+[
+  {
+    "id": "Roll-dice",
+    "name": "Roll dice",
+    "description": "As a Player \nI want to roll the dice\nSo that my token can move to a new position",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/RollDice.feature",
+    "elements": [
+      {
+        "name": "Move token",
+        "id": "Roll-dice;move-token",
+        "line": 13,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1493931
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:2"
+            }
+          },
+          {
+            "name": "Laura’s token is at a 1",
+            "line": 7,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 873339
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:10"
+            }
+          },
+          {
+            "name": "Laura throws 3 in total",
+            "line": 8,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 268377
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:21"
+            }
+          },
+          {
+            "name": "Laura’s token moves to a 4",
+            "line": 9,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 813507
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:35"
+            }
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 99259
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:6"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Move token",
+        "id": "Roll-dice;move-token",
+        "line": 14,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 77995
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:2"
+            }
+          },
+          {
+            "name": "Laura’s token is at a 2",
+            "line": 7,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 303249
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:10"
+            }
+          },
+          {
+            "name": "Laura throws 7 in total",
+            "line": 8,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 63440
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:21"
+            }
+          },
+          {
+            "name": "Laura’s token moves to a 9",
+            "line": 9,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 128164
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:35"
+            }
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51795
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:6"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Move token",
+        "id": "Roll-dice;move-token",
+        "line": 15,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64691
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:2"
+            }
+          },
+          {
+            "name": "Laura’s token is at a 39",
+            "line": 7,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 92537
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:10"
+            }
+          },
+          {
+            "name": "Laura throws 4 in total",
+            "line": 8,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 62175
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:21"
+            }
+          },
+          {
+            "name": "Laura’s token moves to a 3",
+            "line": 9,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 75323
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:35"
+            }
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46764
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:6"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Another turn",
+        "id": "Roll-dice;another-turn",
+        "line": 24,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51536
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:2"
+            }
+          },
+          {
+            "name": "Laura’s turn",
+            "line": 18,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 1106755
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:4"
+            }
+          },
+          {
+            "name": "Laura throws 1 & 1",
+            "line": 19,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 165753
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:16"
+            }
+          },
+          {
+            "name": "Laura gets yes",
+            "line": 20,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 114525
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:40"
+            }
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55059
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:6"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Another turn",
+        "id": "Roll-dice;another-turn",
+        "line": 25,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59432
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:2"
+            }
+          },
+          {
+            "name": "Laura’s turn",
+            "line": 18,
+            "keyword": "Given ",
+            "result": {
+              "status": "passed",
+              "duration": 147902
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:4"
+            }
+          },
+          {
+            "name": "Laura throws 5 & 3",
+            "line": 19,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 68436
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:16"
+            }
+          },
+          {
+            "name": "Laura gets no",
+            "line": 20,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 91166
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:40"
+            }
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52577
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:6"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Going to jail",
+        "id": "Roll-dice;going-to-jail",
+        "line": 27,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 40824
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:2"
+            }
+          },
+          {
+            "name": "Laura’s throws double 3 times in a row",
+            "line": 28,
+            "keyword": "When ",
+            "result": {
+              "status": "passed",
+              "duration": 254123
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:26"
+            }
+          },
+          {
+            "name": "Laura goes to jail",
+            "line": 29,
+            "keyword": "Then ",
+            "result": {
+              "status": "passed",
+              "duration": 289156
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/step_definitions/roll_dice_steps.js:45"
+            }
+          },
+          {
+            "keyword": "After ",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 62075
+            },
+            "match": {
+              "location": "/Users/finkingma/myProjects/monopoly-cucumber/monopoly-game/features/support/hooks.js:6"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
