@@ -1,14 +1,11 @@
-var player = {}
-
-player.currentPos = 1
-
-player.setStartingPos = (pos) => {
-  player.currentPos = parseInt(pos)
+function Player (name, startingPos = 1) {
+  this.name = name
+  this.currentPos = parseInt(startingPos)
+  this.inJail = false
+  this.move = (num) => {
+    this.currentPos = this.currentPos + parseInt(num)
+    if (this.currentPos > 40) this.currentPos -= 40
+  }
 }
 
-player.move = (num) => {
-  player.currentPos = player.currentPos + parseInt(num)
-  if (player.currentPos > 40) player.currentPos = 1
-}
-
-module.exports = player
+module.exports = Player
